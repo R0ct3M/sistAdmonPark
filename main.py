@@ -47,6 +47,8 @@ def calcularTiempo(horaEntrada, horaSalida):
     else:
         return max(1, math.ceil(tiempoTotal))
 
+    #return max(1, math.ceil(tiempoTotal))
+
 #Calcula y muestra el valor a pagar por el estacionamiento.
 def calcularTarifa(vehiculo, tiempo):
     tarifaCarroHora = 4000
